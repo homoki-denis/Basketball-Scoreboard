@@ -4,7 +4,7 @@ $(function () {
 
   $(".buttons .home-btn-1").click(function () {
     homeScore += 1;
-    $(".home-score").text(homeScore);
+    $(".home-score").html(homeScore);
   });
 
   $(".buttons .home-btn-2").click(function () {

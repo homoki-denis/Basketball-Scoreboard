@@ -21,12 +21,33 @@ h1 {
   justify-content: space-between;
   text-align: center;
   padding: 2rem;
-  width: 25vw;
+
   color: #fff;
+}
+
+.left-col {
+  margin-right: 1.5rem;
 }
 
 .home-score,
 .guest-score {
   background-color: #080001;
   color: #f94f6d;
+  margin: 1.2rem 0 1.5rem 0;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #9aabd8;
+  padding: 0.4rem 0.5rem;
+}
+
+.home-score-higher {
+  color: red;
 }
